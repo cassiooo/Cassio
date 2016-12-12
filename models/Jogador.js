@@ -1,10 +1,10 @@
 var mongoose = require('mongoose');
 
-var JogadorSchema = new mongoose.Schema({
+var JogadorXadrezSchema = new mongoose.Schema({
   nome: String,
   idade: Number,
   pais: String,
   rating: Number
 });
 
-module.exports = mongoose.model('Jogador', JogadorSchema);
+module.exports = mongoose.model('JogadorXadrez', JogadorXadrezSchema);
