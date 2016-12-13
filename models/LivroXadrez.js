@@ -9,4 +9,4 @@ var LivroXadrezSchema = new mongoose.Schema({
   categoria: String
 });
 
-module.exports = mongoose.model('Livro', LivroSchema);
+module.exports = mongoose.model('Livro', LivroXadrezSchema);
