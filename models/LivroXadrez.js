@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-var LivroSchema = new mongoose.Schema({
+var LivroXadrezSchema = new mongoose.Schema({
   titulo: String,
   autor: String,
   ano: Number,

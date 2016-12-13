@@ -9,7 +9,7 @@ var usuario = require('./routes/usuario');
 var perfil = require('./routes/perfil');
 var aluno = require('./routes/aluno');
 var jogadorXadrez = require('./routes/jogadorXadrez');
-var livro = require('./routes/livro');
+var livroXadrez = require('./routes/livroXadrez');
 
 var mongoose = require('mongoose');
 
@@ -59,7 +59,7 @@ app.use('/usuario', usuario);
 app.use('/perfil', perfil);
 app.use('/aluno', aluno);
 app.use('/jogadorXadrez', jogadorXadrez);
-app.use('/livro', livro);
+app.use('/livroXadrez', livroXadrez);
 
 
 
